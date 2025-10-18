@@ -8,6 +8,18 @@ img = cv.imread('checkerboard_18x18.png')
 # the '0' flag converts the image to grayscale
 grayscale = cv.imread('checkerboard_18x18.png', 0)
 
-print(grayscale)
+# prints image array
+# print(grayscale)
 
-Image(filename='checkerboard_18x18.png')
+#print size of image
+# print("Image size (H, W):", grayscale.shape)
+
+#print datatype of image
+# print("Image datatype:", grayscale.dtype)
+
+coke_img = cv.imread("coca-cola-logo.png", 1)
+
+# print image size
+print("image size (H, W, C):", coke_img.shape)
+ 
+# ***** WHEN I COME BACK TO THIS - FIX MATPLOTLIB DISPLAY ISSUE ******
